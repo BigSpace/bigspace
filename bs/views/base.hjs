@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="bigSpace">
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/pure.css">
+  </head>
+  <body >
+    <h1>{{title}}</h1>
+    <div class="">
+      {{$content}} default content {{/content}}
+    </div>
+    <script href="/javascripts/angular.min.js" type="text/javascript"></script>
+    <script href="/javascripts/controllers.js" type="text/javascript"></script>
+  </body>
+</html>
