@@ -11,7 +11,7 @@ var base = require('./routes/base');
 
 var app = express();
 
-
+// app.locals.delimiters = '<% %>';
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hjs');
