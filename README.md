@@ -2,10 +2,10 @@
 # bigspace
 
 Software stack:
-  1. Pure.css - style guide
-  2. Angular.js - frontend framework
-  3. Express.js - backend framework
-  4. mongoose(mongo) - database
+  1. Pure.css - style guide (http://purecss.io/)
+  2. Angular.js - frontend framework (https://angularjs.org/)
+  3. Express.js - backend framework (http://expressjs.com/)
+  4. mongoose(mongo) - database (http://mongoosejs.com/)
 
 To get app running:
   1. clone repo
