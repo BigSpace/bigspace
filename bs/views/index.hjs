@@ -1,7 +1,0 @@
-{{<layout}}
-  {{$content}}
-    <div>
-      <h1>1+2=</h1>
-    </div>
-  {{/content}}
-{{/layout}}
