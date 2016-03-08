@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html ng-app="bigspace">
 <head>
+  <title>ASSBANDIT</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/stylesheets/purebs.css" media="screen" title="no title" charset="utf-8">
-  <link rel="stylesheet" href="/stylesheets/style.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  <link rel="stylesheet" href="css/app.css" media="screen" title="no title" charset="utf-8">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-  <script src="/javascripts/controllers.js"></script>
-  <script type="text/javascript" src="https://adodson.com/hello.js/dist/hello.all.js"></script>
+  <script src="javascripts/app.js"></script>
 </head>
 <body ng-controller="MainCtrl">
   <div class="pure-menu pure-menu-horizontal">
@@ -18,3 +18,14 @@
       <li class="pure-menu-item"><a href="#" class="pure-menu-link">About Us</a></li>
     </ul>
   </div>
+
+  <ul>
+    <li ng-repeat="phone in phones">
+      <span>{{phone.name}}</span>
+      <p>{{phone.snippet}}</p>
+    </li>
+  </ul>
+
+
+  </body>
+  </html>
